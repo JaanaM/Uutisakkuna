@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fi-FI">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title> Uutiakkuna </title>
+</head>
+
+<body class="container">
+    <header>
+        <h1> UutisAkkuna: </h1>
+        <h2> Ajassa ja aiheessa mukana: </h2>
+    </header>
+    <section id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <figure class="active item">
+                <img src="img/efficient_cars.png" alt="Efficient Cars" />
+                <figcaption class="carousel-caption"> Vuonna 2017 Autot lupaavat olla polttoaine tehokkaimpia kuin koskaan</figcaption>
+            </figure>
+            <figure class="item">
+                <img src="img/natural_disaster.png" alt="Natural Disaster" />
+                <figcaption class="carousel-caption">Hurrikaani uhkaa vyöryä kohti etelärannikkoa viikonloppuna</figcaption>
+            </figure>
+            <figure class="item">
+                <img src="img/health_records.png" alt="Health Records" />
+                <figcaption class="carousel-caption"> Uusia sähköisiä potilastietojärjestelmiä otettu käyttöön</figcaption>
+            </figure>
+        </div>
+    </section>
+    <main class="row">
+        <h3> Viimeisimmät artikkelit</h3>
+        <article class="well col-md-4">
+            <time datetime="16-01-2016"> Perjantai, 16. tammikuuta </time>
+            <h4> Ulkomaan uutiset </h4>
+            <p>
+                Curabitur pharetra luctus augue, non posuere orci tristique vel. Sed posuere nisi nec lacus ullamcorper, ac vulputate nisl
+                consequat. Nullam sollicitudin nulla vel felis faucibus aliquam. Nunc sit amet velit orci. Proin sed orci
+                fringilla, elementum felis condimentum, convallis augue. Aliquam erat volutpat. Mauris tempus nunc sit amet
+                aliquet bibendum. Praesent vestibulum cursus ex, quis laoreet eros consectetur ac. Ut congue libero quis
+                mauris egestas feugiat. Sed pharetra lorem et magna fringilla, a volutpat nibh sollicitudin. Nullam sagittis
+                sollicitudin urna, sed sollicitudin mauris ornare id.
+                <a href="#" target="_blank"> Lue lisää... </a>
+            </p>
+        </article>
+        <article class="well col-md-4">
+            <time datetime="14-01-2016"> Keskiviikko,  14. tammikuuta</time>
+            <h4> Pörssijuttu </h4>
+            <p>
+                <p>
+                    Nullam tempor mi at libero elementum varius. Sed lobortis lacus feugiat est tristique, nec imperdiet turpis scelerisque.
+                    Ut sed urna malesuada, scelerisque dui sit amet, tempus mauris. Integer bibendum egestas urna, a bibendum
+                    sem gravida quis. Cras accumsan rhoncus vestibulum. Nam eu blandit leo. Integer at consectetur nunc,
+                    et tempus urna. Integer sit amet sollicitudin elit. Donec nec posuere erat. Sed vestibulum nisl neque,
+                    vitae tincidunt ex molestie quis. Nulla fringilla viverra turpis in volutpat. Cras vel orci quis velit
+                    efficitur ullamcorper sed eu ex.
+                </p>
+                <figure>
+                    <img src="img/chip_debit.png" alt="Debit Card with Chip">
+                    <figcaption>Uusia Debit Kortteja uudella siruun kehitetyllä tietoturvalla </figcaption>
+                </figure>
+                <p>
+                    Nullam vel ex nec lectus imperdiet luctus vitae vel nibh. Donec eleifend velit eros, eu efficitur justo molestie id. In egestas
+                    gravida lectus. Ut ipsum odio, suscipit sit amet molestie non, scelerisque sed mi. Aenean sed augue eu
+                    arcu faucibus molestie. Sed eget ante gravida, rhoncus velit eu, tempus quam. Sed fermentum at odio sed
+                    commodo. Fusce lobortis cursus purus, quis consequat est faucibus at. Etiam massa felis, sodales at sodales
+                    sed, iaculis quis arcu.
+                </p>
+                <a href="#" target="_blank"> Lue lisää... </a>
+            </p>
+        </article>
+        <article class="well col-md-4">
+            <time datetime="14-01-2016"> Keskiviikko,  14. tammikuuta </time>
+            <h4> Tekniikkaa </h4>
+            <p>
+                Morbi eget justo ut velit dapibus malesuada. Nunc elementum, neque quis convallis tempus, lacus ante tristique est, id porta
+                tortor leo eget orci. Suspendisse hendrerit interdum lacus et condimentum. Mauris at ex dignissim, bibendum
+                libero at, fermentum lectus. Maecenas porttitor purus quis augue interdum, eget malesuada neque placerat.
+                Ut hendrerit risus in nibh elementum, quis vestibulum ipsum vulputate. Nulla facilisi. In consectetur et
+                lacus vel tincidunt. Quisque feugiat ipsum et erat rhoncus efficitur. In in augue at enim tempor sollicitudin.
+                <a href="#" target="_blank"> Lue lisää... </a>
+            </p>
+        </article>
+    </main>
+
+    <summary class="panel panel-default col-md-8 col-md-offset-2">
+        <div class="panel-heading"> Kirjaudu sähköpostilistalle. </div>
+        <form class="form-horizontal panel-body">
+            <label> E-mail osoite: </label>
+            <input type="text" required="required" />
+            <label> Postitusväli: </label>
+            <select>
+                <option> Päivittäin </option>
+                <option> Viikottain </option>
+                <option> Kuukausittain </option>
+            </select>
+            <input type="submit" value="Sign-Up" />
+
+        </form>
+    </summary>
+</body>
+
+</html>
